@@ -1,0 +1,248 @@
+
+body {
+    background-image: url(images/arcaderoom.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    width:1500px
+    }
+
+/******************** NAVBAR ********************/
+
+.dnf-video {  
+    left: 850px;
+    margin-left: 150px;
+    position: absolute;
+    top:80px
+    
+    
+} 
+.dnf {
+   width: 20px;
+}
+.navbar-top {
+    position: absolute;
+    background-image: url(images/dnf\ duel.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin-bottom: 80px;
+    margin-top: 80px;
+    margin-right: 100px;
+    margin-left: 80px;
+    width: 600px;
+    left: 80px;
+    height: 80px;
+    
+    
+    
+}
+
+
+
+
+/******************** HOME-PAGE ********************/
+.wrapper {
+    position: relative;
+    overflow: hidden;
+    height: 310px; 
+    border: 1px solid black;
+}
+
+.wrapper:hover #slide3 {/*mk11*/
+    transition: 1s;
+    left: 50px;
+}
+.wrapper:hover #slide2 {/*street fighter*/
+    transition: 1s;
+    left:320px;
+}
+.wrapper:hover #slide {/*dnf duel*/
+    transition: 1s;
+    left: 120px;
+}
+#slide3 {
+    position: absolute;
+    left: -300px;
+    width: 200px;
+    height: 200px;
+    transition: 1s;
+}
+#slide2 {
+    position: absolute;
+    left: -300px;
+    width: 300px;
+    height: 200px;
+    transition: 1s;
+}
+#slide {
+    position: absolute;
+    left: -300px;
+    width: 300px;
+    height: 200px;
+    transition: 1s;
+}
+
+.dnf-icon {
+    position: absolute;
+    width: 300px;
+    left: 850px;
+    top: 50px;
+}
+.mk11-video {
+    position: absolute;
+    top: 870px;
+    left: 950px;
+    margin-left: 50px;
+    height: 311px;
+    width: 560px;
+    
+}
+.mk11 {
+    background-image: url(images/reptile.jpg);
+    display: flex;
+    margin-top: 80px;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 80px;
+    width: 600px;
+    left: 80px;
+    background-position-y: -200px;
+    background-position-x:-400px ;
+    background-repeat: no-repeat;
+    height: 300px;
+
+    
+    
+}
+
+
+.btn-street {
+    background-color: transparent;
+    background-image: url(images/street\ fighter\ 6\ logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    width:230px;
+    height: 150px;
+    left:100px ;
+    position: absolute;
+    top: 100px;
+    border-color: transparent;
+}
+.botonmk11 {
+    border: none;
+    background-size:cover;
+    background-image: url(images/mk11\ logo.png);
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: transparent;
+    width: 200px;
+    height: 200px;
+    left: -1000px;
+    top: 60px;
+    
+}
+.boton-dnf {
+    background-color: transparent;
+    background-image:url(images/dnf\ duel.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-color: transparent;
+}
+    
+    
+    
+ 
+
+.sf6-video {
+    position: relative;
+    width: 560px;
+    left: 1000px;
+    height: 318px;
+
+}
+.sf-image {
+    position: absolute;
+    width: 300px;
+    left:  70px;
+    top: 50px;
+   
+}
+.home-page {
+    height:315px;
+    background-size:cover;
+    background-image: url(images/ken\ background.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-color: #444444;
+    position: absolute;
+    background-position-y: -60px;
+    background-position-x: 0px;
+    margin-right: 80px;
+    margin-left: 80px;
+    width: 600px;
+    left: 80px;
+}
+
+
+/*  ********************Home-page-center ******************** */
+.middle-container {
+    
+   background-repeat: no-repeat;
+    width:1700px;
+    height: 500px;
+    margin:80px 80px
+    
+    
+    
+    
+    
+}
+
+
+.text-box {
+    padding-top: 100px;
+    width:500px;
+    height: 500px;
+    font-size: large;
+    margin-left: 720px;
+    text-align: center;
+    font-weight: bolder;
+    font-family:'Roboto';
+    font-size: 25px;
+        
+}
+.striker {
+    margin-bottom: 0;
+    position: relative;
+    width:300px ;
+    right: 700px;
+    top: -400px;
+    
+}
+.berserker {
+    position: absolute;
+    width: 400px;
+    left: 1200PX;
+    top: 1320px;
+}
+.fdojo {
+    position:relative;
+    top: -80px;
+    color:yellow;
+    font-size:50px;
+    left: -200px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.text {
+    color:white;
+    position: relative;
+    left: -200px;
+    font-size:larger;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* ********************Footer-social media******************** */
+
+    
+    
